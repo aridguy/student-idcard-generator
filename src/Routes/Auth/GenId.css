@@ -1,0 +1,124 @@
+/* .theWrapperIdPlace{
+    background-color: rgb(99, 161, 241);
+    height: 100vh;
+    background-size: cover;
+} */
+.idcardBox {
+    width: 3.5in;
+    height: 2.11in;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 7px 11px rgb(0 0 0 / 24%);
+    border-radius: 4px;
+}
+
+.spaceTop {
+    position: relative;
+    top: 13em;
+}
+
+.t1 {
+    font-size: 17px;
+    color: green;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.t2 {
+    font-size: 10px;
+    color: red;
+    font-weight: 500;
+    position: relative;
+    bottom: 13px;
+    text-transform: uppercase;
+}
+
+.t3 {
+    font-size: 12px;
+    color: blue;
+    font-weight: 500;
+    position: relative;
+    bottom: 25px;
+    text-transform: uppercase;
+}
+
+.t4 {
+    font-size: 9px;
+    text-transform: lowercase;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    position: relative;
+    bottom: 41px;
+}
+
+.t5 {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: blue;
+    font-weight: 500;
+    position: relative;
+    bottom: 55px;
+}
+
+/* passport */
+
+.passport {
+    width: 90px;
+    position: relative;
+    bottom: 3.5em;
+    border: 1px solid black;
+}
+
+.passportSmall {
+    width: 24px;
+    float: right;
+}
+
+.passportFoot {
+    background-color: #008000b8;
+    position: relative;
+    bottom: 3.4em;
+    height: 0.9em;
+    width: 24mm;
+    color: white;
+}
+
+.pft {
+    position: relative;
+    font-size: 9px;
+    text-transform: uppercase;
+    font-weight: 600;
+    bottom: 9px;
+    left: 4px;
+}
+
+ul {
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 11px;
+    position: relative;
+    bottom: 4.5em;
+    right: 1em;
+}
+.ul {
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 11px;
+    position: relative;
+    bottom: 4.5em;
+    right: 3.5em;
+}
+
+.d-forms {
+    width: 12em;
+    height: 1.6em;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+.name, .designation, .expDate, .signature, .dept, .studentNo{
+    width: 80%;
+}
+
+.signs{
+    width: 7em;
+}

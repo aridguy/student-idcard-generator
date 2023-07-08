@@ -1,0 +1,21 @@
+.home {
+    align-items: center;
+    background-image: url(../../Assets/girl2.jpeg);
+    display: flex;
+    height: 100vh;
+    background-size: cover;
+   
+}
+
+.forms{
+    /* -webkit-appearance: none;  */
+    height: 3em;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
