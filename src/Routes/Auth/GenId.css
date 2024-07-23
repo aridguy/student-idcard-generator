@@ -7,14 +7,27 @@
     width: 3.5in;
     height: 2.11in;
     background-color: rgb(255, 255, 255);
+    background-image: url('../../Assets/logoss.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: 5px 7px 11px rgb(0 0 0 / 24%);
+    border-radius: 4px;
+}
+.idcardBoxs {
+    width: 3.5in;
+    height: 2.11in;
+    background-color: rgb(255, 255, 255);
+    background-image: url('../../Assets/back.png');
+    background-size: contain;
+    background-repeat: no-repeat;
     box-shadow: 5px 7px 11px rgb(0 0 0 / 24%);
     border-radius: 4px;
 }
 
-.spaceTop {
+/* .spaceTop {
     position: relative;
     top: 13em;
-}
+} */
 
 .t1 {
     font-size: 17px;
@@ -34,7 +47,7 @@
 
 .t3 {
     font-size: 12px;
-    color: blue;
+    color: #3E4095;
     font-weight: 500;
     position: relative;
     bottom: 25px;
@@ -53,7 +66,7 @@
 .t5 {
     font-size: 12px;
     text-transform: uppercase;
-    color: blue;
+    color: #3E4095;
     font-weight: 500;
     position: relative;
     bottom: 55px;
@@ -113,7 +126,9 @@ ul {
     height: 1.6em;
     border: none;
     outline: none;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid green;
+    background-color: rgba(255, 0, 0, 0);
+    border-left: 1px solid green;
 }
 .name, .designation, .expDate, .signature, .dept, .studentNo{
     width: 80%;
