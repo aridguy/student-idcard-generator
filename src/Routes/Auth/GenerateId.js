@@ -310,7 +310,6 @@ const GenerateId = () => {
                 <main>
                   <div className="idcardBoxs mt-3">
                     <div className="container">
-                      
                     </div>
                   </div>
                 </main>
